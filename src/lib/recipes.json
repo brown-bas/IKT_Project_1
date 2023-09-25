@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "title": "Churros c:",
+    "content": [
+      {"type": "img", "content": "./test.png"},
+      {"type": "text", "content": "Lorem100, bla, bla, bla, filler szöveg"}
+    ]
+  }
+]
