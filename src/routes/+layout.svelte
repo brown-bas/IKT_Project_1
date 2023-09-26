@@ -1,6 +1,5 @@
 <script>
   import Header from '$lib/components/Header.svelte';
-  import '../app.css';
 </script>
 
 <Header/>
@@ -8,10 +7,11 @@
 
 <style lang="postcss">
   @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;800&display=swap');
+  @import '../app.css';
 
-  :global(body){
-    margin: 0;
-    background-color: #ddd;
-    font-family: 'Mukta', sans-serif;
+  @layer base{
+    :global(body){
+      @apply m-0 bg-neutral-200 font-mukta
+    }
   }
 </style>
