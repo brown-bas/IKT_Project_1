@@ -24,7 +24,10 @@
 </script>
 
 {#if recipe != null}
-  <h1 class="b">{recipe.title}</h1>
+  <div class="flex flex-row items-center gap-4">
+    <a href="../recipes">Vissza</a>
+    <h1 class="b">{recipe.title}</h1>
+  </div>
   {#each recipe.content as r}
     {#if getContentType(r.type).mainTypeName == "text"}
       {#if getContentType(r.type).typeName == "xxl"}
@@ -41,7 +44,7 @@
       {:else if getContentType(r.type).mainTypeName == "img"}
       <img src={r.content} alt={r.content}>
         {#if r.content.includes("http")}
-          <p>Fénykép forrása: <a href={r.content.slice(0, r.content.indexOf("/", 8))}>{r.content.slice(0, r.content.indexOf("/", 8))}</a></p>
+          <p class="img-src">Fénykép forrása: <a href={r.content.slice(0, r.content.indexOf("/", 8))}>{r.content.slice(0, r.content.indexOf("/", 8))}</a></p>
         {/if}
       {:else if getContentType(r.type).mainTypeName == "bullet"}
       <ul>
@@ -71,6 +74,14 @@
 
     .it, .itb{
       @apply italic;
+    }
+
+    .img-src{
+      @apply md:text-base text-xs mt-[-1em];
+    }
+
+    a:hover{
+      @apply underline
     }
 
     h1{
