@@ -3,11 +3,26 @@
     "id": 1,
     "title": "Churros",
     "content": [
+      {"type": "text-xxl", "content": "Smaller title"},
       {"type": "text-xl", "content": "Smaller title"},
       {"type": "text-lg", "content": "Lorem100, bla, bla, bla, filler szöveg"},
       {"type": "text-sm", "content": "Lorem100, bla, bla, bla, filler szöveg"},
+      {"type": "text-xxl-b", "content": "Smaller title"},
+      {"type": "text-xl-b", "content": "Smaller title"},
+      {"type": "text-lg-b", "content": "Lorem100, bla, bla, bla, filler szöveg"},
+      {"type": "text-sm-b", "content": "Lorem100, bla, bla, bla, filler szöveg"},
+      {"type": "text-xxl-it", "content": "Smaller title"},
+      {"type": "text-xl-it", "content": "Smaller title"},
+      {"type": "text-lg-it", "content": "Lorem100, bla, bla, bla, filler szöveg"},
+      {"type": "text-sm-it", "content": "Lorem100, bla, bla, bla, filler szöveg"},
+      {"type": "text-xxl-itb", "content": "Smaller title"},
+      {"type": "text-xl-itb", "content": "Smaller title"},
+      {"type": "text-lg-itb", "content": "Lorem100, bla, bla, bla, filler szöveg"},
+      {"type": "text-sm-itb", "content": "Lorem100, bla, bla, bla, filler szöveg"},
       {"type": "bullet", "content": ["hiya", "second one"]},
-      {"type": "img", "content": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg"}
+      {"type": "numbered", "content": ["hiya", "second one"]},
+      {"type": "img", "content": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg"},
+      {"type": "img", "content": "../../10363-1663835636223.webp"}
     ]
   }
 ]

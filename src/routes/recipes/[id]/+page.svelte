@@ -4,28 +4,46 @@
   import '../../../app.css';
   export let data
 
-  const textTypes = ['b', 'it', 'itb'];
   let recipe = recipes.filter(x => x.id.toString() == data.data)[0];
+  
+  function getContentType(type){
+    let textTypes = ['b', 'it', 'itb'];
+    if(type.match(/\-/g) != null && type.match(/\-/g).length > 1){
+      return{
+        mainTypeName: type.includes("-") ? type.slice(0,type.indexOf("-")) : type.slice(0,type.length+1),
+        typeName: type.slice(type.indexOf("-")+1, type.lastIndexOf("-")),
+        typeFormat: textTypes[textTypes.indexOf(type.slice(type.lastIndexOf("-")+1))]
+      }
+    } else {
+      return{
+        mainTypeName: type.includes("-") ? type.slice(0,type.indexOf("-")) : type.slice(0,type.length),
+        typeName: type.includes("-") ? type.slice(type.indexOf("-")+1,type.length) : type.slice(0,type.length+1),
+      }
+    }
+  }
 </script>
 
-<div class="component">
+{#if recipe != null}
   <h1 class="b">{recipe.title}</h1>
   {#each recipe.content as r}
-    {#if r.type.slice(0,4) == "text"}
-      {#if r.type.slice(5).includes("xxl")}
-        <h1 class={textTypes[textTypes.indexOf(r.type.slice(r.type.lastIndexOf("-")+1))]}>{r.content}</h1>
-        {:else if r.type.slice(5).includes("xl")}
-        <h2 class={textTypes[textTypes.indexOf(r.type.slice(r.type.lastIndexOf("-")+1))]}>{r.content}</h2>
-        {:else if r.type.slice(5).includes("lg")}
-        <h3 class={textTypes[textTypes.indexOf(r.type.slice(r.type.lastIndexOf("-")+1))]}>{r.content}</h3>
-        {:else if r.type.slice(5).includes("md")}
-        <h4 class={textTypes[textTypes.indexOf(r.type.slice(r.type.lastIndexOf("-")+1))]}>{r.content}</h4>
-        {:else if r.type.slice(5).includes("sm")}
-        <p class={textTypes[textTypes.indexOf(r.type.slice(r.type.lastIndexOf("-")+1))]}>{r.content}</p>
+    {#if getContentType(r.type).mainTypeName == "text"}
+      {#if getContentType(r.type).typeName == "xxl"}
+        <h1 class={getContentType(r.type).typeFormat}>{r.content}</h1>
+        {:else if getContentType(r.type).typeName == "xl"}
+        <h2 class={getContentType(r.type).typeFormat}>{r.content}</h2>
+        {:else if getContentType(r.type).typeName == "lg"}
+        <h3 class={getContentType(r.type).typeFormat}>{r.content}</h3>
+        {:else if getContentType(r.type).typeName == "md"}
+        <h4 class={getContentType(r.type).typeFormat}>{r.content}</h4>
+        {:else if getContentType(r.type).typeName == "sm"}
+        <p class={getContentType(r.type).typeFormat}>{r.content}</p>
       {/if}
-      {:else if r.type.slice(0,3) == "img"}
+      {:else if getContentType(r.type).mainTypeName == "img"}
       <img src={r.content} alt={r.content}>
-      {:else if r.type.slice(0,6) == "bullet"}
+        {#if r.content.includes("http")}
+          <p>Fénykép forrása: <a href={r.content.slice(0, r.content.indexOf("/", 8))}>{r.content.slice(0, r.content.indexOf("/", 8))}</a></p>
+        {/if}
+      {:else if getContentType(r.type).mainTypeName == "bullet"}
       <ul>
         {#each r.content as point}
           <li>{point}</li>
@@ -39,15 +57,14 @@
       </ol>
     {/if}
   {/each}
-</div>
+  {:else}
+  <h1 class="b">A recept nem létezik!</h1>
+{/if}
 
 <style lang="postcss">
   @tailwind components;
-  @layer components{
-    .component{
-      @apply md:w-2/3 flex flex-col m-auto p-12 md:pt-32 pt-40 gap-5;
-    }
 
+  @layer components{
     .b, .itb{
       @apply font-bold;
     }
