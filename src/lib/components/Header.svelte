@@ -15,7 +15,7 @@
     }
 
     h1{
-      @apply text-3xl;
+      @apply text-3xl md:text-start md:w-max w-screen text-center;
     }
 
     #links{

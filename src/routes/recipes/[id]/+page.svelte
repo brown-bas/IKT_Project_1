@@ -24,7 +24,7 @@
 </script>
 
 {#if recipe != null}
-  <div class="flex flex-row items-center gap-4">
+  <div class="flex md:flex-row flex-col md:items-center gap-4">
     <a href="../recipes">Vissza</a>
     <h1 class="b">{recipe.title}</h1>
   </div>
