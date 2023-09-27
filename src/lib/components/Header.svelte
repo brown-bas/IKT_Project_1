@@ -1,5 +1,5 @@
 <header>
-  <h1>Receptek</h1>
+  <h1>Neumann Receptek</h1>
   <div id="links">
     <a href="/">Főoldal</a>
     <a href="/recipes">Receptek</a>
@@ -11,7 +11,7 @@
 
   @layer components{
     header{
-      @apply w-screen px-16 h-16 bg-neutral-400 flex flex-row justify-between items-center
+      @apply w-screen px-16 md:h-16 h-32 bg-lime-300 gap-4 flex md:flex-row flex-col md:justify-between justify-center items-center fixed
     }
 
     h1{
@@ -23,7 +23,7 @@
     }
 
     #links a{
-      @apply text-lg hover:bg-neutral-500 p-2 rounded-md transition-all;
+      @apply text-lg hover:bg-white hover:bg-opacity-50 p-2 rounded-md transition-all;
     }
   }
 </style>

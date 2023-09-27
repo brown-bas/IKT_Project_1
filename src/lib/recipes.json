@@ -1,10 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Churros c:",
+    "title": "Churros",
     "content": [
-      {"type": "img", "content": "./test.png"},
-      {"type": "text", "content": "Lorem100, bla, bla, bla, filler szöveg"}
+      {"type": "text-xl", "content": "Smaller title"},
+      {"type": "text-lg", "content": "Lorem100, bla, bla, bla, filler szöveg"},
+      {"type": "text-sm", "content": "Lorem100, bla, bla, bla, filler szöveg"},
+      {"type": "bullet", "content": ["hiya", "second one"]},
+      {"type": "img", "content": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg"}
     ]
   }
 ]
