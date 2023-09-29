@@ -24,5 +24,13 @@
       {"type": "img", "content": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg"},
       {"type": "img", "content": "../../10363-1663835636223.webp"}
     ]
+  },
+  {
+    "id": 2,
+    "title": "Churros 2",
+    "cover": "../../10363-1663835636223.webp",
+    "content": [
+      {"type": "img", "content": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg"}
+    ]
   }
 ]
