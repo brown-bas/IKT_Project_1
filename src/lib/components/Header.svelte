@@ -11,7 +11,7 @@
 
   @layer components{
     header{
-      @apply w-screen px-16 md:h-16 h-32 bg-lime-300 gap-4 flex md:flex-row flex-col md:justify-between justify-center items-center fixed
+      @apply w-screen px-16 md:h-16 h-32 bg-lime-300 gap-4 flex md:flex-row flex-col md:justify-between justify-center items-center fixed z-50
     }
 
     h1{

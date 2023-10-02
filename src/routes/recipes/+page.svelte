@@ -3,6 +3,7 @@
   import recipes from '$lib/recipes.json';
 </script>
 
+<h1>Receptek</h1>
 <div class="recipeContainer">
   {#each recipes as recipe}
     <a class="recipe" href="recipes/{recipe.id}">
@@ -23,11 +24,11 @@
 
   @layer components{
     .recipeContainer{
-      @apply flex md:flex-row flex-col gap-6 items-center;
+      @apply flex md:flex-row flex-col gap-6 items-center flex-wrap;
     }
 
     .recipe{
-      @apply hover:translate-y-[-.25rem] transition-all rounded-lg p-8 bg-white w-72 h-max flex flex-col gap-5;
+      @apply hover:translate-y-[-.25rem] transition-all rounded-lg p-8 bg-white w-64 h-max flex flex-col gap-5;
     }
 
     .recipe .coverImg{
@@ -37,5 +38,9 @@
     .recipe h2{
       @apply font-bold text-3xl md:text-2xl md:text-start text-center w-full;
     }
-  }
+
+    h1{
+      @apply text-4xl md:text-start md:w-max w-full text-center mb-2;
+    }
+}
 </style>
