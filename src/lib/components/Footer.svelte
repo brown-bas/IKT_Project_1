@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-  <p>Made with ❤ in NJIT © 2023</p>
+  <p>Made with ❤ at NJIT © 2023</p>
   {#if scrollTopBtn}
     <button on:click={() => window.scrollTo(0,0)}>Vissza a tetejére</button>
   {/if}

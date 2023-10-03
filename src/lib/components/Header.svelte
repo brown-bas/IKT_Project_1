@@ -1,5 +1,9 @@
+<script>
+  import Logo from '/logo.svg'
+</script>
+
 <header>
-  <h1>Neumann Receptek</h1>
+  <img src={Logo} alt="Logo" title="Neumann Receptek">
   <div id="links">
     <a href="/">Főoldal</a>
     <a href="/recipes">Receptek</a>
@@ -11,7 +15,11 @@
 
   @layer components{
     header{
-      @apply w-screen px-16 md:h-16 h-32 bg-lime-300 gap-4 flex md:flex-row flex-col md:justify-between justify-center items-center fixed z-50
+      @apply w-screen px-16 md:h-16 h-32 bg-lime-300 gap-4 flex md:flex-row flex-col md:justify-between justify-center items-center fixed z-50;
+    }
+
+    header img{
+      @apply md:h-2/3 h-1/3;
     }
 
     h1{
@@ -19,7 +27,7 @@
     }
 
     #links{
-      @apply flex flex-row gap-6
+      @apply flex flex-row gap-6;
     }
 
     #links a{

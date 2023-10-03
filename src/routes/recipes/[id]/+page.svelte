@@ -23,6 +23,9 @@
   }
 </script>
 
+<svelte:head>
+  <title>{recipe == null ? "Hiba" : recipe.title} - Neumann Receptek</title>
+</svelte:head>
 {#if recipe != null}
   <div class="flex md:flex-row flex-col md:items-center gap-4">
     <a href="../recipes">Vissza</a>
@@ -62,6 +65,7 @@
   {/each}
   {:else}
   <h1 class="b">A recept nem létezik!</h1>
+  <a href="../recipes">Vissza</a>
 {/if}
 
 <style lang="postcss">

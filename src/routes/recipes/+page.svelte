@@ -3,6 +3,9 @@
   import recipes from '$lib/recipes.json';
 </script>
 
+<svelte:head>
+  <title>Receptek - Neumann Receptek</title>
+</svelte:head>
 <h1>Receptek</h1>
 <div class="recipeContainer">
   {#each recipes as recipe}
@@ -44,5 +47,5 @@
     h1{
       @apply text-4xl md:text-start md:w-max w-full text-center mb-2;
     }
-}
+  }
 </style>
