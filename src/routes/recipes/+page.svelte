@@ -6,16 +6,18 @@
 <h1>Receptek</h1>
 <div class="recipeContainer">
   {#each recipes as recipe}
-    <a class="recipe" href="recipes/{recipe.id}">
-      {#if recipe.cover}
-          <div class="coverImg" style={`background-image: url(${recipe.cover})`}/>
-        {:else if recipe.content.filter(x => x.type == "img").length > 0}
-          <div class="coverImg" style={`background-image: url(${recipe.content.filter(x => x.type == "img")[0].content})`}/>
-        {:else}
-          <div class="coverImg" style="background-image: url(./favicon.png)"/>
-      {/if}
-      <h2>{recipe.title}</h2>
-    </a>
+    {#if !recipe.hidden}
+      <a class="recipe" href="recipes/{recipe.id}">
+        {#if recipe.cover}
+            <div class="coverImg" style={`background-image: url(${recipe.cover})`}/>
+          {:else if recipe.content.filter(x => x.type == "img").length > 0}
+            <div class="coverImg" style={`background-image: url(${recipe.content.filter(x => x.type == "img")[0].content})`}/>
+          {:else}
+            <div class="coverImg" style="background-image: url(./favicon.png)"/>
+        {/if}
+        <h2>{recipe.title}</h2>
+      </a>
+    {/if}
   {/each}
 </div>
 

@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Churros",
+    "hidden": true,
+    "title": "Test recipe",
     "content": [
       {"type": "text-xxl", "content": "Smaller title"},
       {"type": "text-xl", "content": "Smaller title"},
@@ -27,10 +28,31 @@
   },
   {
     "id": 2,
-    "title": "Churros 2",
-    "cover": "../../10363-1663835636223.webp",
+    "title": "Churros",
+    "cover": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg",
     "content": [
-      {"type": "img", "content": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg"}
+      {"type": "text-xxl-itb", "content": "Megjegyzés: Az oldal még fejlesztés alatt áll!"},
+      {"type": "text-xl-b", "content": "Bevezetés"},
+      {"type": "img", "content": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg"},
+      {"type": "text-sm-it", "content": "A churro (kiejtése [ˈʧurːo]) vagy churros, amit Magyarországon spanyol fánkként is ismerünk, spanyol édesség: sült tésztarudacskák cukorba mártogatva."},
+      {"type": "text-sm", "content": "Formáját tekintve többféle lehet; egyenes, hajlított vagy akár spirál alakú is. A mai modern változatok között találunk kristálycukorba forgatott, cukorral, csokoládéval, dulce de lechével (karamelizált tejkrém) vagy cukrászkrémmel töltött churrost is. Fogyasztható reggelire vagy uzsonnára egy pohár forró csokoládé vagy tejeskávé mellé, de egyes dél-amerikai országokban a matétea mellé is fogyasztják."},
+      {"type": "text-sm", "content": "A churros az évek során a világ számos részén is kedvelt lett, és manapság a fesztiválokon, kávézókban és utcai árusoknál is gyakran megtalálható. A tradicionális spanyol édesség új ízekkel és formákkal is gazdagodott, például töltött churrosokkal vagy különböző mártásokkal kiegészítve."},
+      {"type": "text-sm", "content": "A churrost általában frissen reggelire vagy uzsonnára fogyasztják, egy csésze meleg ital, például forró csokoládé (ezt a párosítást gyakran röviden csak chocolate con churrosnak nevezik) vagy tejeskávé mellé. Főleg a téli hónapokban fogyasztják, nyáron a kereslet kisebb. Bár elsősorban a churerríákban árusítják, már általában kávézókban is megtalálható ez az édesség. Továbbá már a szupermarketekben is kapható a churros, többnyire fagyasztott formában, amit ki kell sütni, vagy elősütött verzióban, amit már csak sütőben fel kell melegíteni."},
+      {"type": "text-xl-b", "content": "Története"},
+      {"type": "img", "content": "https://kep.index.hu/1/0/4501/45014/450141/45014186_3433702_5c96cf3cf5c50f6597598c75242164c6_wm.jpg"},
+      {"type": "text-xl-b", "content": "Elkészítése"},
+      {"type": "img", "content": "https://kep.index.hu/1/0/4055/40550/405505/40550533_3094513_7f33521e66b589cdda4a830fe39821e0_wm.jpg"},
+      {"type": "img", "content": "https://kep.index.hu/1/0/3936/39367/393679/39367917_3003593_f842aca1ac89a739b0162656bd3e17e4_wm.jpg"}
+    ]
+  },
+  {
+    "id": 69,
+    "hidden": true,
+    "title": "Megcsináltad az IKT projektet?",
+    "content": [
+      {"type": "text-xl-b", "content": "Nem"},
+      {"type": "text-sm", "content": "Cry about it"},
+      {"type": "img", "content": "https://media.discordapp.net/attachments/739201946144997476/1148754952118861855/1149404_451429884955320_307539210_o.png?ex=651d462b&is=651bf4ab&hm=1aca86169889f64c5039987a2bae1458c3b50ce93c3451958e56f6b54aa26b38&=&width=1202&height=676"}
     ]
   }
 ]

@@ -1,1 +1,1 @@
-<h1>Ez lesz a főoldal! c:</h1>
+<h1>Az oldal még fejlesztés alatt áll!</h1>
