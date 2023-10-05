@@ -10,16 +10,16 @@
   @import '../app.css';
 
   @layer base{
+    body{
+      @apply bg-center bg-cover bg-no-repeat bg-landing bg-blend-soft-light;
+    }
+
     h1{
       @apply md:text-7xl text-5xl font-bold;
     }
 
     .text-container{
       @apply flex flex-col gap-4 h-[50vh] md:items-start justify-center items-center;
-    }
-
-    :global(body){
-      @apply bg-center bg-cover bg-no-repeat bg-landing bg-blend-soft-light;
     }
 
     a{
