@@ -16,11 +16,11 @@
 
   @layer base{
     :global(html){
-      @apply scroll-smooth
+      @apply scroll-smooth;
     }
 
     :global(body){
-      @apply m-0 bg-neutral-200 font-mukta overflow-x-hidden
+      @apply m-0 bg-neutral-200 font-mukta overflow-x-hidden;
     }
     
     .component{
@@ -37,7 +37,7 @@
     -moz-user-select: none;
   }
 
-  body{
+  :global(body){
     background-image: none;
   }
 </style>
