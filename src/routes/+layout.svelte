@@ -38,6 +38,6 @@
   }
 
   :global(body){
-    background-image: none;
+    background-image: none !important;
   }
 </style>
