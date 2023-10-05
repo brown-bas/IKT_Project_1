@@ -10,7 +10,7 @@
   @import '../app.css';
 
   @layer base{
-    body{
+    :global(body){
       @apply bg-center bg-cover bg-no-repeat bg-landing bg-blend-soft-light;
     }
 
