@@ -64,7 +64,8 @@
     {/if}
   {/each}
   {:else}
-  <h1 class="b">A recept nem létezik!</h1>
+  <h1 class="b">Hiba!</h1>
+  <h4>A recept nem létezik!</h4>
   <a href="../recipes">Vissza</a>
 {/if}
 
@@ -118,6 +119,10 @@
 
     img{
       @apply rounded-lg
+    }
+
+    a{
+      @apply w-max
     }
   }
 </style>

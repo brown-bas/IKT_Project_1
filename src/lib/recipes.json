@@ -40,10 +40,10 @@
       {"type": "text-sm", "content": "A churrost általában frissen reggelire vagy uzsonnára fogyasztják, egy csésze meleg ital, például forró csokoládé (ezt a párosítást gyakran röviden csak chocolate con churrosnak nevezik) vagy tejeskávé mellé. Főleg a téli hónapokban fogyasztják, nyáron a kereslet kisebb. Bár elsősorban a churerríákban árusítják, már általában kávézókban is megtalálható ez az édesség. Továbbá már a szupermarketekben is kapható a churros, többnyire fagyasztott formában, amit ki kell sütni, vagy elősütött verzióban, amit már csak sütőben fel kell melegíteni."},
       {"type": "text-xl-b", "content": "Története"},
       {"type": "text-lg-b", "content": "A bárányoktól a desszertig"},
-      {"type": "text-sm", "content": "A churros története Kínában kezdődött, ahol európai kereskedők elsőként készítették el a churros egy kezdetleges változatát, amit később Youtiao-nak (油条) neveztek el. E különlegesség hírét hallva a Spanyolok megpróbálták utánozni, amiben sikerrel jártak, így az ottani juhászok előszeretettel fogyasztották reggelire és ebédre is egyaránt. "},
+      {"type": "text-sm", "content": "A churros története Kínában kezdődött, ahol európai kereskedők elsőként készítették el a churros egy kezdetleges változatát, amit később Youtiao-nak (油条) neveztek el. E különlegesség hírét hallva a Spanyolok megpróbálták utánozni, amiben sikerrel jártak, így az ottani nomád juhászok előszeretettel fogyasztották reggelire és ebédre is egyaránt. Idővel változtattak a recepten és a helyi bárányfajtáról, a Navajo Churro-ról kapta végleges nevét."},
       {"type": "img", "content": "https://www.tasteatlas.com/images/ingredients/9544dd6edb1c49dda96d87d25111ebe5.jpg"},
-      {"type": "img", "content": "https://kep.index.hu/1/0/4501/45014/450141/45014186_3433702_5c96cf3cf5c50f6597598c75242164c6_wm.jpg"},
       {"type": "text-xl-b", "content": "Elkészítése"},
+      {"type": "img", "content": "https://kep.index.hu/1/0/4501/45014/450141/45014186_3433702_5c96cf3cf5c50f6597598c75242164c6_wm.jpg"},
       {"type": "img", "content": "https://kep.index.hu/1/0/4055/40550/405505/40550533_3094513_7f33521e66b589cdda4a830fe39821e0_wm.jpg"},
       {"type": "img", "content": "https://kep.index.hu/1/0/3936/39367/393679/39367917_3003593_f842aca1ac89a739b0162656bd3e17e4_wm.jpg"}
     ]
@@ -56,6 +56,15 @@
       {"type": "text-xl-b", "content": "Nem"},
       {"type": "text-sm", "content": "Cry about it"},
       {"type": "img", "content": "https://media.discordapp.net/attachments/739201946144997476/1148754952118861855/1149404_451429884955320_307539210_o.png?ex=651d462b&is=651bf4ab&hm=1aca86169889f64c5039987a2bae1458c3b50ce93c3451958e56f6b54aa26b38&=&width=1202&height=676"}
+    ]
+  },
+  {
+    "id": 621,
+    "hidden": true,
+    "title": "Megölöm magam",
+    "content": [
+      {"type": "text-xl-b", "content": "⼀些意⻅认为，如果期待已久的 M2 红地铁和穿过我们区的 Gödöllő城际⼩⽕⻋的连接得以实现，⼗六区花园城的交通将会得到很⼤改善。这也将消除在Cinkota⼗字路⼝的等待。⽽另外⼀部分⼈的意⻅则是：这是不必要的投资浪费，即使现在也是可以轻松换乘到Örs vezér⼴场，没有把地铁线路延伸的Cinkota。尽快实现 HÉV 与地铁的连接，从⽽消除在Cinkota城际⼩⽕⻋岔道⼝的等待是很重要的吗？这是浪费钱，没有必要。"},
+      {"type": "img", "content": "https://media.discordapp.net/attachments/739201946144997476/1156344553721311232/Screenshot_20230912-090602.png?ex=652eff49&is=651c8a49&hm=ec0dd99850b63e59c13375db4b68cb6f5c189771f3e59527942e3a4ca6702bca&=&width=424&height=675"}
     ]
   }
 ]
