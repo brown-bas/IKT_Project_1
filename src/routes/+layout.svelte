@@ -36,8 +36,4 @@
     -ms-user-select: none;
     -moz-user-select: none;
   }
-
-  :global(body){
-    background-image: none !important;
-  }
 </style>

@@ -120,4 +120,8 @@
       @apply rounded-lg
     }
   }
+  
+  :global(body){
+    background-image: none !important;
+  }
 </style>

@@ -48,4 +48,8 @@
       @apply text-4xl md:text-start md:w-max w-full text-center mb-2;
     }
   }
+  
+  :global(body){
+    background-image: none !important;
+  }
 </style>
