@@ -1,9 +1,10 @@
 <script>
+  import Heart from '/heart.svg';
   export let scrollTopBtn = true
 </script>
 
 <footer>
-  <p>Made with ❤ at NJIT © 2023</p>
+  <p class="flex flex-row gap-1">Made with <img src={Heart} alt="love" title="love"> at NJIT © 2023</p>
   {#if scrollTopBtn}
     <button on:click={() => window.scrollTo(0,0)}>Vissza a tetejére</button>
   {/if}

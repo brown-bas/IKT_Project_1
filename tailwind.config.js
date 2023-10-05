@@ -5,6 +5,9 @@ export default {
 		fontFamily: {
 			mukta: ['Mukta', 'sans-serif']
 		},
+		backgroundImage: {
+			landing: "url('/10363-1663835636223.webp')"
+		},
 		extend: {}
 	},
 	plugins: []

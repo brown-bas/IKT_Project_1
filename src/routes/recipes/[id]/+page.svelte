@@ -69,7 +69,7 @@
 {/if}
 
 <style lang="postcss">
-  @tailwind components;
+  @import '../../../app.css';
 
   @layer components{
     .b, .itb{
@@ -93,15 +93,15 @@
     }
 
     h2{
-      @apply text-3xl;
+      @apply md:text-4xl text-3xl;
     }
 
     h3{
-      @apply text-2xl;
+      @apply md:text-3xl text-2xl;
     }
 
     h4{
-      @apply text-xl;
+      @apply md:text-2xl text-xl;
     }
 
     p, ul li, ol li{
