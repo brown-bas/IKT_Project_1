@@ -43,9 +43,23 @@
       {"type": "text-sm", "content": "A churros története Kínában kezdődött, ahol európai kereskedők elsőként készítették el a churros egy kezdetleges változatát, amit később Youtiao-nak (油条) neveztek el. E különlegesség hírét hallva a Spanyolok megpróbálták utánozni, amiben sikerrel jártak, így az ottani nomád juhászok előszeretettel fogyasztották reggelire és ebédre is egyaránt. Idővel változtattak a recepten és a helyi bárányfajtáról, a Navajo Churro-ról kapta végleges nevét."},
       {"type": "img", "content": "https://www.tasteatlas.com/images/ingredients/9544dd6edb1c49dda96d87d25111ebe5.jpg"},
       {"type": "text-xl-b", "content": "Elkészítése"},
+      {"type": "text-lg-b", "content": "Hozzávalók:"},
+      {"type": "bullet", "content": ["15dkg liszt", "2,5 dl víz", "2db tojás", "12 dkg vaj", "Fél tk só", "Étolaj (2dl vagy ízlés szerint)", "Fahéjas cukor (ízlés szerint)"]},
+      {"type": "text-lg-b", "content": "Teendők:"},
+      {"type": "numbered", "content": ["A vizet, a vajat, a cukrot és a sót egy kisebb edényben, lassú tűzön összeforraljuk.", "Ha elolvadt a vaj és a cukor, beleöntjük a lisztet, és gyors mozdulatokkal addig keverjük, amíg összeáll.", "Lehúzzuk a tűzről, és 10-15 perc alatt langyosra hűtjük.", "Hozzákeverjük a tojást, majd a nyers tésztát habzsákba töltjük.", "Egy serpenyőben olajat forrósítunk, és a habzsákból kinyomva, olló segítségével kb. 10 cm-es csíkokat nyomunk és vágunk bele, majd az olajban minden oldalon aranybarnára sütjük.", "Amikor kisültek a tésztarudak, még melegen fahéjas cukorba forgatjuk valamennyit, és langyosan tálaljuk."]},
+      {"type": "img", "content": "https://www.cookingclassy.com/wp-content/uploads/2018/08/churros-19.jpg"},
       {"type": "img", "content": "https://kep.index.hu/1/0/4501/45014/450141/45014186_3433702_5c96cf3cf5c50f6597598c75242164c6_wm.jpg"},
       {"type": "img", "content": "https://kep.index.hu/1/0/4055/40550/405505/40550533_3094513_7f33521e66b589cdda4a830fe39821e0_wm.jpg"},
-      {"type": "img", "content": "https://kep.index.hu/1/0/3936/39367/393679/39367917_3003593_f842aca1ac89a739b0162656bd3e17e4_wm.jpg"}
+      {"type": "img", "content": "https://kep.index.hu/1/0/3936/39367/393679/39367917_3003593_f842aca1ac89a739b0162656bd3e17e4_wm.jpg"},
+      {"type": "text-sm-it", "content": "Javasolt recept:"},
+      {"type": "link", "content": [3]}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Csokoládészósz",
+    "content": [
+
     ]
   },
   {

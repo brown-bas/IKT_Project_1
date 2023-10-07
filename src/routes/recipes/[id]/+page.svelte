@@ -2,6 +2,7 @@
   //@ts-nocheck
   import recipes from '$lib/recipes.json';
   import '../../../app.css';
+  import Back from '/back.svg';
   export let data
 
   let recipe = recipes.filter(x => x.id.toString() == data.data)[0];
@@ -28,7 +29,7 @@
 </svelte:head>
 {#if recipe != null}
   <div class="flex md:flex-row flex-col md:items-center gap-4">
-    <a href="../recipes">Vissza</a>
+    <a href="../recipes"><img src={Back} alt="Vissza" title="Vissza">Vissza</a>
     <h1 class="b">{recipe.title}</h1>
   </div>
   {#each recipe.content as r}
@@ -55,12 +56,20 @@
           <li>{point}</li>
         {/each}
       </ul>
-      {:else if r.type.slice(0,8) == "numbered"}
+      {:else if getContentType(r.type).mainTypeName == "numbered"}
       <ol>
         {#each r.content as point}
           <li>{point}</li>
         {/each}
       </ol>
+      {:else if getContentType(r.type).mainTypeName == "link"}
+      {#if isNaN(r.content[0])}
+        <a href={r.content[1]}>{r.content[0]}</a>
+        {:else if recipes.filter(x=>x.id == r.content[0]).length == 1}
+        <a href="./{r.content[0]}">{recipes.filter(x=>x.id == r.content[0])[0].title}</a>
+        {:else}
+        <p class="it">A recept nem létezik vagy törölve lett.</p>
+      {/if}
     {/if}
   {/each}
   {:else}
@@ -122,7 +131,7 @@
     }
 
     a{
-      @apply w-max
+      @apply w-max flex flex-row gap-1
     }
   }
 </style>

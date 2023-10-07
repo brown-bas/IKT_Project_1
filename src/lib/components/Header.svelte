@@ -1,12 +1,14 @@
 <script>
   import Logo from '/logo.svg'
+  import HomeIcon from '/home.svg'
+  import RecipesIcon from '/recipes.svg'
 </script>
 
 <header>
   <img src={Logo} alt="Logo" title="Neumann Receptek">
   <div id="links">
-    <a href="/">Főoldal</a>
-    <a href="/recipes">Receptek</a>
+    <a href="/"><img src={HomeIcon} alt="Főoldal" title="Főoldal">Főoldal</a>
+    <a href="/recipes"><img src={RecipesIcon} alt="Receptek" title="Receptek">Receptek</a>
   </div>
 </header>
 
@@ -31,7 +33,11 @@
     }
 
     #links a{
-      @apply text-lg hover:bg-white hover:bg-opacity-50 p-2 rounded-md transition-all;
+      @apply text-lg hover:bg-white hover:bg-opacity-50 p-2 rounded-md transition-all flex flex-row items-center justify-center gap-1;
+    }
+
+    #links a img{
+      @apply h-6
     }
   }
 </style>

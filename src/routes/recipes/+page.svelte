@@ -16,7 +16,7 @@
           {:else if recipe.content.filter(x => x.type == "img").length > 0}
             <div class="coverImg" style={`background-image: url(${recipe.content.filter(x => x.type == "img")[0].content})`}/>
           {:else}
-            <div class="coverImg" style="background-image: url(./favicon.png)"/>
+            <div class="coverImg defaultCover"/>
         {/if}
         <h2>{recipe.title}</h2>
       </a>
@@ -37,7 +37,11 @@
     }
 
     .recipe .coverImg{
-      @apply w-full h-32 rounded-lg bg-cover bg-no-repeat bg-center;
+      @apply w-full h-32 rounded-lg bg-cover bg-no-repeat bg-center bg-neutral-200;
+    }
+
+    .recipe .coverImg.defaultCover{
+      @apply bg-lime-300 bg-placeholder;
     }
 
     .recipe h2{
@@ -47,5 +51,9 @@
     h1{
       @apply text-4xl md:text-start md:w-max w-full text-center mb-2;
     }
+  }
+
+  .recipe .coverImg.defaultCover{
+    background-size: 56px;
   }
 </style>
