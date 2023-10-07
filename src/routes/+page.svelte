@@ -1,11 +1,10 @@
 <script>
+  //@ts-nocheck
   import recipes from '$lib/recipes.json';
-
   let bgOptions = []
   while(bgOptions.length == 0){
     recipes.filter(x=>!x.hidden || x.hidden == undefined)[Math.floor(Math.random() * recipes.filter(x=>!x.hidden || x.hidden == undefined).length)].content.filter(y=>{if(y && y.type=="img") bgOptions.push(y.content)})
   }
-  console.log(bgOptions);
 </script>
 <svelte:head>
   <title>Főoldal - Neumann Receptek</title>

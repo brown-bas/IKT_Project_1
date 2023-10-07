@@ -6,7 +6,7 @@ export default {
 			mukta: ['Mukta', 'sans-serif']
 		},
 		backgroundImage: {
-			placeholder: "url('./logo.svg')"
+			placeholder: "url('/logo.svg')"
 		},
 		extend: {}
 	},
