@@ -45,7 +45,7 @@
     }
 
     .recipe h2{
-      @apply font-bold text-3xl md:text-2xl md:text-start text-center w-full;
+      @apply font-bold text-2xl md:text-start text-center w-full;
     }
 
     h1{

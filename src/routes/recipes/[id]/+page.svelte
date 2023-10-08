@@ -82,6 +82,10 @@
   @import '../../../app.css';
 
   @layer components{
+    h1, h2, h3, h4, h5, h6, p, a{
+      @apply break-words hyphens-auto;
+    }
+
     .b, .itb{
       @apply font-bold;
     }
