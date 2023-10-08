@@ -13,7 +13,7 @@
 - `title: string`: A recept "címe"
 - `hidden: boolean` (opcionális): A recept láthatósága a "Receptek" oldalon
 - `cover: string` (opcionális): Az indexképhez vezető útvonal (külső és belső link is lehet egyaránt), ha ez nincs megadva, akkor a recepten belül található kép lesz az indexkép, illetve ha a recepten belül sem található képhez vezető link, akkor az egyszerű zöld ("brand") színű háttérrel (a header háttérszíne) az oldal logója lesz az indexkép
-- `content: array`: Az oldal elemeit (`object`) tartalmazó lista
+- `content: array`: Az oldal elemeit (`*object`) tartalmazó lista
 ### Az oldalon lévő elemek így néznek ki: `{"type": string, "content": string/array}`:
 Elemek típusai (`type: *`) lehetnek a következők:
 - `*`:
@@ -36,7 +36,7 @@ Elemek típusai (`type: *`) lehetnek a következők:
   - `"bullet"`: Számozatlan lista:
     - `content: [string, string, string]`
   - `"numbered"`: Számozott lista:
-    - `content: [string, string, string]`
+    - `content: [*string]`
   - `"img"`: Kép:
     - `content: string`:
-      - Ha `content` egy külső link, akkor a kép alá kerül egy forrásmegjelölés, ha nem, akkor a kép alatt nem lesz forrásmegjelölés
+      - Ha `string` egy külső link, akkor a kép alá kerül egy forrásmegjelölés, ha nem, akkor a kép alatt nem lesz forrásmegjelölés
