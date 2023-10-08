@@ -9,16 +9,16 @@
 
 ## Útmutató receptek írásához:
 ### Az oldalon lévő elemek típusai lehetnek a következők:
-- [`text`]: Szövegek / Címek
-  - [`-sm-*`]: Kis szöveg (átlagos bekezdés)
-  - [`-md-*`]: Kis cím / Közepes szöveg
-  - [`-lg-*`]: Közepes cím
-  - [`-xl-*`]: Nagy cím
-  - [`-xxl-*`]: Főcím
-  - [`*`]: Extra formázási lehetőségek:
-    - [`b`]: Félkövér
-    - [`it`]: Dőlt
-    - [`itb`]: Félkövér és dőlt
-- [`link`]: Hivatkozás:
-  - [`content: [x]`]: Hivatkozás egy másik receptre ([`x`]: Másik recept azonosítója (id))
-  - [`content: ["Szöveg", "Hivatkozás"]`]: Hivatkozás egy külső oldalra
+- `text`: Szövegek / Címek
+  - `-sm-*`: Kis szöveg (átlagos bekezdés)
+  - `-md-*`: Kis cím / Közepes szöveg
+  - `-lg-*`: Közepes cím
+  - `-xl-*`: Nagy cím
+  - `-xxl-*`: Főcím
+  - `*`: Extra formázási lehetőségek:
+    - `b`: Félkövér
+    - `it`: Dőlt
+    - `itb`: Félkövér és dőlt
+- `link`: Hivatkozás:
+  - `content: [x]`: Hivatkozás egy másik receptre (`x`: Másik recept azonosítója (id))
+  - `content: ["Szöveg", "Hivatkozás"]`: Hivatkozás egy külső oldalra
