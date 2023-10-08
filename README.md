@@ -22,7 +22,7 @@ Jelmagyarázat:
 - `content: array`: Az oldal elemeit (`*object`) tartalmazó lista
 ### Az oldalon lévő elemek így néznek ki: `{"type": string, "content": string/array}`:
 Elemek típusai (`type: *`) lehetnek a következők:
-- `"text"`: Szövegek / Címek
+- `"text"`: Szövegek / Címek:
   - `-sm-*`: Kis szöveg (átlagos bekezdés)
   - `-md-*`: Kis cím / Közepes szöveg
   - `-lg-*`: Közepes cím
