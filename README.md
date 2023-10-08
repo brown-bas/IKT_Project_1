@@ -11,6 +11,7 @@
 Jelmagyarázat:
 - `*string`: Akármennyi `string` lehet
 - `type: *`: A `*` helyére kerülhetnek a leírást követő lista elemei
+- `*x`: Ebben az esetben `x` egy hasznos/extra információ
 
 ## A JSON fájlban a következő attribútumokat kell (vagy opcionális) megadni:
 - `id: integer`: Azonosító, amellyel el lehet érni a receptet az oldalon
