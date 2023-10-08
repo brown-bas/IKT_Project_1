@@ -1,11 +1,11 @@
 <script>
   //@ts-nocheck
+  import recipes from '$lib/recipes.json';
   import '../../../app.css';
   import Back from '/back.svg';
-  import recipes from '$lib/recipes.json';
   export let data;
 
-  let recipe = data.data
+  let recipe = recipes.filter(x => x.id.toString() == data.data)[0];
   
   function getContentType(type){
     let textTypes = ['b', 'it', 'itb'];
@@ -66,7 +66,7 @@
       {#if isNaN(r.content[0])}
         <a href={r.content[1]}>{r.content[0]}</a>
         {:else if recipes.filter(x=>x.id == r.content[0]).length == 1}
-        <a href="./{r.content[0]}">{recipes.filter(x=>x.id == r.content[0])[0].title}</a>
+        <a href="../recipes/{r.content[0]}">{recipes.filter(x=>x.id == r.content[0])[0].title}</a>
         {:else}
         <p class="it">A recept nem létezik vagy törölve lett.</p>
       {/if}
