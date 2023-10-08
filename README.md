@@ -33,10 +33,8 @@ Elemek típusai (`type: *`) lehetnek a következők:
       - Hivatkozás egy másik receptre, ilyenkor a recept címe lesz a hivatkozás szövegi tartalma, illetve ha a recept nem létezik vagy törölve lett, akkor dőlt kis szöveggé válik a hivatkozás és a szövege a következő lesz: `"A recept nem létezik vagy törölve lett."` (`x`: Másik recept azonosítója (id))
     - `content: [string, string]`: Hivatkozás egy külső oldalra
     - *`content: [string, int]`: Hivatkozás egy receptre személyre szabható szöveggel
-  - `"bullet"`: Számozatlan lista:
-    - `content: [string, string, string]`
-  - `"numbered"`: Számozott lista:
-    - `content: [*string]`
+  - `"numbered"`, `"bullet"`: Számozott és számozatlan lista:
+    - `content: [*string]`: Akármennyi `string`-et tartalmazhat
   - `"img"`: Kép:
     - `content: string`:
       - Ha `string` egy külső link, akkor a kép alá kerül egy forrásmegjelölés, ha nem, akkor a kép alatt nem lesz forrásmegjelölés
