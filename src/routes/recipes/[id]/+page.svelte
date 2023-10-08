@@ -1,11 +1,11 @@
 <script>
   //@ts-nocheck
-  import recipes from '$lib/recipes.json';
   import '../../../app.css';
   import Back from '/back.svg';
-  export let data
+  import recipes from '$lib/recipes.json';
+  export let data;
 
-  let recipe = recipes.filter(x => x.id.toString() == data.data)[0];
+  let recipe = data.data
   
   function getContentType(type){
     let textTypes = ['b', 'it', 'itb'];

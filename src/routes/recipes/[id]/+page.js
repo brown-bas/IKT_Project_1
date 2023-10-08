@@ -1,5 +1,6 @@
+import recipes from '$lib/recipes.json';
 export async function load({ params }) {
 	return {
-		data: params.id
+		data: recipes.filter((x) => x.id.toString() == params.id)[0]
 	};
 }
