@@ -1,14 +1,11 @@
 <script>
   import Heart from '/heart.svg';
   import ScrollUp from '/scrollup.svg';
-  export let scrollTopBtn = true
 </script>
 
 <footer>
   <p class="flex flex-row gap-1">Made with <img src={Heart} alt="love" title="love"> at NJIT © 2023</p>
-  {#if scrollTopBtn}
-    <button on:click={() => {window.scrollTo(0,0);console.log("back to top")}}><img src={ScrollUp} alt="Vissza a tetejére" title="Vissza a tetejére">Vissza a tetejére</button>
-  {/if}
+  <button on:click={() => window.scrollTo(0,0)}><img src={ScrollUp} alt="Vissza a tetejére" title="Vissza a tetejére">Vissza a tetejére</button>
 </footer>
 
 <style lang="postcss">

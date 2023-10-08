@@ -1,14 +1,13 @@
 <script>
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
-  let overHeightLimit = true
 </script>
 
 <Header/>
 <div class="component">
   <slot/>
 </div>
-<Footer scrollTopBtn={overHeightLimit}/>
+<Footer/>
 
 <style lang="postcss">
   @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;800&display=swap');
