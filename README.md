@@ -11,6 +11,7 @@
 Jelmagyarázat:
 - `*string`: Akármennyi `string` lehet
 - `type: *`: A `*` helyére kerülhetnek a leírást követő lista elemei
+- `*:`: A `*` helyére kerülhetnek a lista elemei
 - `*x`: Ebben az esetben `x` egy hasznos/extra információ
 
 ## A JSON fájlban a következő attribútumokat kell (vagy opcionális) megadni:
