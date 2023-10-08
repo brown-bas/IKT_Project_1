@@ -40,5 +40,4 @@ Elemek típusai (`type: *`) lehetnek a következők:
 - `"numbered"`, `"bullet"`: Számozott és számozatlan lista:
   - `content: [*string]`
 - `"img"`: Kép:
-  - `content: string`:
-    - Ha `string` egy külső link, akkor a kép alá kerül egy forrásmegjelölés, ha nem, akkor a kép alatt nem lesz forrásmegjelölés
+  - `content: string`: Ha `string` egy külső link, akkor a kép alá kerül egy forrásmegjelölés, ha nem, akkor a kép alatt nem lesz forrásmegjelölés
