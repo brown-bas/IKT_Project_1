@@ -1,7 +1,6 @@
 <script>
   //@ts-nocheck
   import recipes from '$lib/recipes.json';
-	import { redirect } from '@sveltejs/kit';
   import '../../../app.css';
   import Back from '/back.svg';
   export let data;
@@ -67,7 +66,7 @@
       {#if isNaN(r.content[0])}
         <a href={r.content[1]}>{r.content[0]}</a>
         {:else if recipes.filter(x=>x.id == r.content[0]).length == 1}
-        <a href="../recipes/{r.content[0]}" on:click={redirect(307, `../recipes/${r.content[0]}`)}>{recipes.filter(x=>x.id == r.content[0])[0].title}</a>
+        <a href="./{r.content[0]}" target="_blank">{recipes.filter(x=>x.id == r.content[0])[0].title}</a>
         {:else}
         <p class="it">A recept nem létezik vagy törölve lett.</p>
       {/if}
