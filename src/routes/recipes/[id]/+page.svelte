@@ -63,10 +63,12 @@
         {/each}
       </ol>
       {:else if getContentType(r.type).mainTypeName == "link"}
-      {#if isNaN(r.content[0])}
+      {#if isNaN(r.content) && isNaN(r.content[0])}
         <a href={r.content[1]}>{r.content[0]}</a>
         {:else if recipes.filter(x=>x.id == r.content[0]).length == 1}
         <a href="./{r.content[0]}" target="_blank">{recipes.filter(x=>x.id == r.content[0])[0].title}</a>
+        {:else if !isNaN(r.content) && recipes.filter(x=>x.id == r.content).length == 1}
+        <a href="./{r.content}" target="_blank">{recipes.filter(x=>x.id == r.content)[0].title}</a>
         {:else}
         <p class="it">A recept nem létezik vagy törölve lett.</p>
       {/if}

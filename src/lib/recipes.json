@@ -34,9 +34,9 @@
       {"type": "text-xl-b", "content": "Bevezetés"},
       {"type": "img", "content": "https://kep.index.hu/1/0/4501/45014/450141/45014186_3433702_5c96cf3cf5c50f6597598c75242164c6_wm.jpg"},
       {"type": "text-sm-it", "content": "A churro (kiejtése [ˈʧurːo]) vagy churros, amit Magyarországon spanyol fánkként is ismerünk, spanyol édesség: sült tésztarudacskák cukorba mártogatva."},
-      {"type": "text-sm", "content": "Formáját tekintve többféle lehet; egyenes, hajlított vagy akár spirál alakú is. A mai modern változatok között találunk kristálycukorba forgatott, cukorral, csokoládéval, dulce de lechével (karamelizált tejkrém) vagy cukrászkrémmel töltött churrost is. Fogyasztható reggelire vagy uzsonnára egy pohár forró csokoládé vagy tejeskávé mellé, de egyes dél-amerikai országokban a matétea mellé is fogyasztják."},
-      {"type": "text-sm", "content": "A churros az évek során a világ számos részén is kedvelt lett, és manapság a fesztiválokon, kávézókban és utcai árusoknál is gyakran megtalálható. A tradicionális spanyol édesség új ízekkel és formákkal is gazdagodott, például töltött churrosokkal vagy különböző mártásokkal kiegészítve."},
-      {"type": "text-sm", "content": "A churrost általában frissen reggelire vagy uzsonnára fogyasztják, egy csésze meleg ital, például forró csokoládé (ezt a párosítást gyakran röviden csak chocolate con churrosnak nevezik) vagy tejeskávé mellé. Főleg a téli hónapokban fogyasztják, nyáron a kereslet kisebb. Bár elsősorban a churerríákban árusítják, már általában kávézókban is megtalálható ez az édesség. Továbbá már a szupermarketekben is kapható a churros, többnyire fagyasztott formában, amit ki kell sütni, vagy elősütött verzióban, amit már csak sütőben fel kell melegíteni."},
+      {"type": "text-sm", "content": "Formáját tekintve többféle lehet; egyenes, hajlított vagy akár spirál alakú is. A mai modern változatok között találunk kristálycukorba forgatott, cukorral, csokoládéval, dulce de lechével (karamelizált tejkrém) vagy cukrászkrémmel töltött churros-t is. Fogyasztható reggelire vagy uzsonnára egy pohár forró csokoládé vagy tejeskávé mellé, de egyes dél-amerikai országokban a matétea mellé is fogyasztják."},
+      {"type": "text-sm", "content": "A churros az évek során a világ számos részén is kedvelt lett, és manapság a fesztiválokon, kávézókban és utcai árusoknál is gyakran megtalálható. A tradicionális spanyol édesség új ízekkel és formákkal is gazdagodott, például töltött churros-okkal vagy különböző mártásokkal kiegészítve."},
+      {"type": "text-sm", "content": "A churros-t általában frissen reggelire vagy uzsonnára fogyasztják, egy csésze meleg ital, például forró csokoládé (ezt a párosítást gyakran röviden csak chocolate con churros-nak nevezik) vagy tejeskávé mellé. Főleg a téli hónapokban fogyasztják, nyáron a kereslet kisebb. Bár elsősorban a churerríákban árusítják, már általában kávézókban is megtalálható ez az édesség. Továbbá már a szupermarketekben is kapható a churros, többnyire fagyasztott formában, amit ki kell sütni, vagy elősütött verzióban, amit már csak sütőben fel kell melegíteni."},
       {"type": "text-xl-b", "content": "Története"},
       {"type": "text-lg-b", "content": "A bárányoktól a desszertig"},
       {"type": "text-sm", "content": "A churros története Kínában kezdődött, ahol európai kereskedők elsőként készítették el a churros egy kezdetleges változatát, amit később Youtiao-nak (油条) neveztek el. E különlegesség hírét hallva a Spanyolok megpróbálták utánozni, amiben sikerrel jártak, így az ottani nomád juhászok előszeretettel fogyasztották reggelire és ebédre is egyaránt. Idővel változtattak a recepten és a helyi bárányfajtáról, a Navajo Churro-ról kapta végleges nevét."},
@@ -48,11 +48,11 @@
       {"type": "numbered", "content": ["A vizet, a vajat, a cukrot és a sót egy kisebb edényben, lassú tűzön összeforraljuk.", "Ha elolvadt a vaj és a cukor, beleöntjük a lisztet, és gyors mozdulatokkal addig keverjük, amíg összeáll.", "Lehúzzuk a tűzről, és 10-15 perc alatt langyosra hűtjük.", "Hozzákeverjük a tojást, majd a nyers tésztát habzsákba töltjük.", "Egy serpenyőben olajat forrósítunk, és a habzsákból kinyomva, olló segítségével kb. 10 cm-es csíkokat nyomunk és vágunk bele, majd az olajban minden oldalon aranybarnára sütjük.", "Amikor kisültek a tésztarudak, még melegen fahéjas cukorba forgatjuk valamennyit, és langyosan tálaljuk."]},
       {"type": "img", "content": "https://www.cookingclassy.com/wp-content/uploads/2018/08/churros-19.jpg"},
       {"type": "text-xl-b", "content": "Tálalás"},
-      {"type": "text-sm", "content": "A churrost általában olvasztott étcsokoládéval vagy egy kevésbé sűrű csokoládészósszal (amelynek elkészítése az alábbi megtalálható), mártogatva szokták fogyasztani."},
-      {"type": "link", "content": [3]},
+      {"type": "text-sm", "content": "A churros-t általában olvasztott étcsokoládéval vagy egy kevésbé sűrű csokoládészósszal (amelynek elkészítése az alábbi megtalálható), mártogatva szokták fogyasztani."},
+      {"type": "link", "content": 3},
       {"type": "img", "content": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg"},
       {"type": "text-xl-b", "content": "Végszó"},
-      {"type": "text-sm", "content": "Köszönöm, hogy elolvastad ezt a receptet, remélem ízleni fog ez az igazán különleges édesség."},
+      {"type": "text-sm", "content": "Köszönöm, hogy elolvastad ezt a receptet, remélem ízleni fog ez az igazán különleges édesség. Jó étvágyat!"},
       {"type": "img", "content": "https://kep.index.hu/1/0/3936/39367/393679/39367917_3003593_f842aca1ac89a739b0162656bd3e17e4_wm.jpg"}
     ]
   },
@@ -60,10 +60,14 @@
     "id": 3,
     "title": "Csokoládészósz",
     "content": [
+      {"type": "text-sm", "content": "Az általában churros mellett tálalt csokoládészósz egy kevésbé sűrű, a csokoládé enyhén kesernyés, mégis édes ízét átadó öntet-szerű mártogatós, amit akár más desszertek elkészítésénél is használhatunk, annak a tulajdonságának köszönhetően, hogy könnyen szilárdul. Ebben a receptben ennek elkészítése van leírva, egyszerű lépésekben."},
       {"type": "img", "content": "https://i.pinimg.com/originals/4d/20/40/4d20400378e4a0758025f7542e456106.jpg"},
       {"type": "text-xl-b", "content": "Elkészítése"},
       {"type": "text-lg-b", "content": "Hozzávalók:"},
-      {"type": "bullet", "content": ["2 tk kukoricakeményítő", "5 dl tej", "12 dkg csokoládé", "3 ek barna cukor", "1 csipet őrölt fahéj és só", "2 ek (cukrozatlan) kakaópor"]}
+      {"type": "bullet", "content": ["2 tk kukoricakeményítő", "5 dl tej", "12 dkg csokoládé", "3 ek barna cukor", "1 csipet őrölt fahéj és só", "2 ek (cukrozatlan) kakaópor"]},
+      {"type": "text-lg-b", "content": "Teendők:"},
+      {"type": "numbered", "content": ["A csokiöntethez a keményítőt elkeverjük 125 ml hideg tejben.", "A maradék tejet kis lábosba tesszük, és alacsony láng felett felolvasztjuk benne a darabokra tört csokoládét.", "A csokis tejhez adjuk a keményítős tejet, a kristálycukorral, a fahéjjal, a sóval és a kakaóval ízesítjük, majd közepes lángon 15 percig főzzük (amíg besűrűsödik)."]},
+      {"type": "text-sm", "content": "Ha kész vagyunk, tálaljuk a desszert mellett vagy használjuk egyéb célnak megfelelően. Jó étvágyat!"}
     ]
   },
   {
