@@ -21,7 +21,7 @@
     }
 
     p{
-      @apply text-center w-full justify-center;
+      @apply md:text-start text-center w-full md:w-max md:justify-start justify-center;
     }
 
     button{
