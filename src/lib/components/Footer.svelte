@@ -20,6 +20,10 @@
       @apply text-3xl md:text-start md:w-max w-full text-center;
     }
 
+    p{
+      @apply text-center w-full justify-center;
+    }
+
     button{
       @apply hover:underline flex flex-row gap-1;
     }
