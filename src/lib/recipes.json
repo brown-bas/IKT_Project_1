@@ -48,12 +48,12 @@
       {"type": "numbered", "content": ["A vizet, a vajat, a cukrot és a sót egy kisebb edényben, lassú tűzön összeforraljuk.", "Ha elolvadt a vaj és a cukor, beleöntjük a lisztet, és gyors mozdulatokkal addig keverjük, amíg összeáll.", "Lehúzzuk a tűzről, és 10-15 perc alatt langyosra hűtjük.", "Hozzákeverjük a tojást, majd a nyers tésztát habzsákba töltjük.", "Egy serpenyőben olajat forrósítunk, és a habzsákból kinyomva, olló segítségével kb. 10 cm-es csíkokat nyomunk és vágunk bele, majd az olajban minden oldalon aranybarnára sütjük.", "Amikor kisültek a tésztarudak, még melegen fahéjas cukorba forgatjuk valamennyit, és langyosan tálaljuk."]},
       {"type": "img", "content": "https://www.cookingclassy.com/wp-content/uploads/2018/08/churros-19.jpg"},
       {"type": "text-xl-b", "content": "Tálalás"},
-      {"type": "text-sm", "content": "A churros-t általában olvasztott étcsokoládéval vagy egy kevésbé sűrű csokoládészósszal (amelynek elkészítése az alábbi megtalálható), mártogatva szokták fogyasztani."},
+      {"type": "text-sm", "content": "A churros-t általában olvasztott étcsokoládéval vagy egy kevésbé sűrű csokoládészósszal (amelynek receptje az alábbi linken megtalálható), mártogatva szokták fogyasztani."},
       {"type": "link", "content": 3},
       {"type": "img", "content": "https://www.kifli.hu/cdn-cgi/image/f=auto,fit=cover,g=0.5x0.5,w=2900,h=1300/https://cdn.kifli.hu/images/meals/large/10363-1663835636223.jpg"},
       {"type": "text-xl-b", "content": "Végszó"},
-      {"type": "text-sm", "content": "Köszönöm, hogy elolvastad ezt a receptet, remélem ízleni fog ez az igazán különleges édesség. Jó étvágyat!"},
-      {"type": "img", "content": "https://kep.index.hu/1/0/3936/39367/393679/39367917_3003593_f842aca1ac89a739b0162656bd3e17e4_wm.jpg"}
+      {"type": "img", "content": "https://kep.index.hu/1/0/3936/39367/393679/39367917_3003593_f842aca1ac89a739b0162656bd3e17e4_wm.jpg"},
+      {"type": "text-sm", "content": "Köszönöm, hogy elolvastad ezt a receptet, remélem ízleni fog ez az igazán különleges édesség. Jó étvágyat!"}
     ]
   },
   {
